@@ -1,110 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <header>
-      <div class="header-container">
-        <h1>Anand Suralkar Portfolio</h1>
-        <a href="https://drive.google.com/file/d/1DReb4ZrrmWbhRbdleF6FOIAVktZAN6Eh/view?usp=sharing" target="_blank" class="button">View Resume</a>
-      </div>
+        <div class="header-container">
+            <h1>Anand Suralkar Portfolio</h1>
+            <a href="https://drive.google.com/file/d/1DReb4ZrrmWbhRbdleF6FOIAVktZAN6Eh/view?usp=sharing" target="_blank" class="button">View Resume</a>
+        </div>
     </header>
 
-    <main>
-      <div class="card">
-        <img src=".\templates\todo.jpg" alt="Project 1" />
-        <div class="card-content">
-          <h2>Django Todo List App</h2>
-          <p>Todo List app made with Django and programmed in python.
-            <br>
-            Use the following test account
-            <br>
-            username :test
-            <br>
-            password :sample@123
-          </p>
-          <button onclick="window.open('https://anand1024.pythonanywhere.com/')">Open</button>
-        </div>
-      </div>
-      <div class="card">
-        <img src=".\templates\movie.jpg" alt="moviemaintain" />
-        <div class="card-content">
-          <h2>Movie Maintainance site</h2>
-          <p>Angular-Django-DjangoREST webapp or site
-          </p>
-          <button onclick="window.open('https://github.com/anandsuralkar/moviemaintain')">View on GitHub</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src=".\templates\cctv.jpg" alt="Crime Detection using OpenPose" />
-        <div class="card-content">
-          <h2>Crime Detection using OpenPose</h2>
-          <p>Crime Detection using OpenPose CCTV input and python Computer Vision based 6 months university AIML project</p>
-          <button onclick="window.open('https://github.com/anandsuralkar/My-Projects/tree/main/Crime%20Detection%20using%20OpenPose')">View on GitHub</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src=".\templates\pie.jpg" alt="Skills-frequency-scraper and data analysis " />
-        <div class="card-content">
-          <h2>Skills-frequency-scraper and data analysis</h2>
-          <p>Scraping Skills-frequency data from job websites,
-            cleaning the data, analysing the data, and data representation in visually intuitive form.
-          </p>
-          <button onclick="window.open('https://github.com/anandsuralkar/My-Projects/tree/main/Skill%20frequency%20scraper%20and%20representation')">View on GitHub</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src=".\templates\game.jpg" alt="Hyper Casual Unity Game" />
-        <div class="card-content">
-          <h2>Hypercasual Game</h2>
-          <p>A This project is a hypercasual 3d game made with Unity.</p>
-          <button onclick="window.open('https://chetancrs.itch.io/the-beginning')">Open Game</button>
-        </div>
-      </div>
-
-       <div class="card">
-        <img src=".\templates\web.jpg" alt="Key-skill-scrapper" />
-        <div class="card-content">
-          <h2>Key-skills-scrapper using API</h2>
-          <p>A It is a Job scrapper made in python for job Website
-            Naukri.com jobs Scrapper from input key skills arguments and save output in a sheet.</p>
-          <button onclick="window.open('https://github.com/anandsuralkar/My-Projects/blob/main/Key_skill_Scrapper.py')">View on GitHub</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src=".\templates\news.jpg" alt="News Sites Scraper" />
-        <div class="card-content">
-          <h2>News Sites Scraper</h2>
-          <p>Scraping data from 4 major news sites.
-            thetimesofindia, firstpost, indianexpress, moneycontrol.
-          </p>
-          <button onclick="window.open('https://github.com/anandsuralkar/My-Projects/tree/main/News%20site%20scrapping')">View on GitHub</button>
-        </div>
-      </div>
-
-       <div class="card">
-        <img src=".\templates\chess.jpg" alt="chess" />
-        <div class="card-content">
-          <h2>Chess game in kivy python</h2>
-          <p>It is a chess game made in kivy python</p>
-          <button onclick="window.open('https://github.com/anandsuralkar/chess')">View on GitHub</button>
-        </div>
-      </div>
-
-     
-
+    <main id="portfolio">
+        <!-- Divs will be dynamically generated here -->
     </main>
 
     <footer>
-      <p>&copy; 2023 Anand Suralkar. All rights reserved.   To contact me- phone: 8668237882,  Email: anandsuralkar36@gmail.com</p>
+        <p>&copy; 2023 Anand Suralkar. All rights reserved. To contact me- phone: 8668237882, Email: anandsuralkar36@gmail.com</p>
     </footer>
-  </body>
+
+    <!-- Include portfolio.js just before closing </body> tag -->
+    <script src="portfolio.js"></script>
+</body>
 </html>
