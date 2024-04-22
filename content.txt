@@ -1,1 +1,53 @@
-
+.\templates\todo.jpg
+Project 1
+Django Todo List App
+Todo List app made with Django and programmed in python.
+Use the following test account
+username :test
+password :sample@123
+https://anand1024.pythonanywhere.com/
+---
+.\templates\movie.jpg
+moviemaintain
+Movie Maintainance site
+Angular-Django-DjangoREST webapp or site
+https://github.com/anandsuralkar/moviemaintain
+---
+.\templates\cctv.jpg
+Crime Detection using OpenPose
+Crime Detection using OpenPose
+CCTV input and python Computer Vision based 6 months university AIML project
+https://github.com/anandsuralkar/My-Projects/tree/main/Crime%20Detection%20using%20OpenPose
+---
+.\templates\pie.jpg
+Skills-frequency-scraper and data analysis
+Skills-frequency-scraper and data analysis
+Scraping Skills-frequency data from job websites,
+cleaning the data, analysing the data, and data representation in visually intuitive form.
+https://github.com/anandsuralkar/My-Projects/tree/main/Skill%20frequency%20scraper%20and%20representation
+---
+.\templates\game.jpg
+Hyper Casual Unity Game
+Hypercasual Game
+This project is a hypercasual 3d game made with Unity.
+https://chetancrs.itch.io/the-beginning
+---
+.\templates\web.jpg
+Key-skill-scrapper
+Key-skills-scrapper using API
+It is a Job scrapper made in python for job Website
+Naukri.com jobs Scrapper from input key skills arguments and save output in a sheet.
+https://github.com/anandsuralkar/My-Projects/blob/main/Key_skill_Scrapper.py
+---
+.\templates\news.jpg
+News Sites Scraper
+News Sites Scraper
+Scraping data from 4 major news sites.
+thetimesofindia, firstpost, indianexpress, moneycontrol.
+https://github.com/anandsuralkar/My-Projects/tree/main/News%20site%20scrapping
+---
+.\templates\chess.jpg
+chess
+Chess game in kivy python
+It is a chess game made in kivy python
+https://github.com/anandsuralkar/chess
